@@ -1,4 +1,4 @@
-FROM node:alpine as builder
+FROM node:gallium-alpine3.14 as builder
 
 WORKDIR /app
 
